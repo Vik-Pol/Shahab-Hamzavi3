@@ -180,6 +180,8 @@ nav.main-menu a:link, nav.main-menu a:hover, nav.main-menu a:focus, nav.main-men
     bottom: 0;
     background: url(../images/top-plastic-surgery-trends-2019-lede.webp) fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 0.5; /* Set opacity for the background image */
     z-index: -1; /* Ensure the background is behind the content */
 }
