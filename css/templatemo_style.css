@@ -482,7 +482,7 @@ footer {
 /* Media query for smaller screens */
 @media (max-width: 767px) {
     #templatemo_home::before {
-        background-size: cover; /* Ensure the image covers the section fully */
+        background-size: 250%; /* Ensure the image covers the section fully */
         background-position: center top; /* Keep the focal point at the top */
         background-attachment: scroll; /* Disable fixed background for smaller screens */
         background-repeat: no-repeat; /* Ensure no repetition */
@@ -492,7 +492,7 @@ footer {
 /* Even smaller screens (400px and below) */
 @media (max-width: 400px) {
     #templatemo_home::before {
-        background-size: cover; /* Cover the section without tiling */
+        background-size: 250%; /* Cover the section without tiling */
         background-position: top center; /* Focus on the top center of the image */
         background-attachment: scroll; /* Prevent background from being fixed */
         background-repeat: no-repeat; /* No tiling */
