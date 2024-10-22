@@ -252,7 +252,7 @@ em {
     margin: 0;
     height: 400px; /* Set all boxes to the same height (adjust as needed) */
     overflow: hidden; /* Hide overflowed content */
-
+    bottom: 50px;
 }
 
 #templatemo_features .feature-box-inner {
