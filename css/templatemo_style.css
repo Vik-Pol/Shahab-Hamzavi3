@@ -183,6 +183,8 @@ nav.main-menu a:link, nav.main-menu a:hover, nav.main-menu a:focus, nav.main-men
     opacity: 0.5; /* Set opacity for the background image */
     z-index: -1; /* Ensure the background is behind the content */
 }
+
+/* Header at the very top */
 em {
     color: #333;
 }
@@ -468,6 +470,27 @@ footer {
         line-height: normal; /* You can adjust this based on your design */
         margin: 0; /* Removes default margins */
         height: 60px;
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    #templatemo_home::before {
+        background-size: cover; /* Ensure the image covers the section fully */
+        background-position: center top; /* Keep the focal point at the top */
+        background-attachment: scroll; /* Disable fixed background for smaller screens */
+        background-repeat: no-repeat; /* Ensure no repetition */
+    }
+}
+
+/* Even smaller screens (400px and below) */
+@media (max-width: 400px) {
+    #templatemo_home::before {
+        background-size: cover; /* Cover the section without tiling */
+        background-position: top center; /* Focus on the top center of the image */
+        background-attachment: scroll; /* Prevent background from being fixed */
+        background-repeat: no-repeat; /* No tiling */
+        opacity: 0.6; /* Increase opacity for better visibility */
     }
 }
 
