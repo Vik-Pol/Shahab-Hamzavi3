@@ -195,7 +195,6 @@ em {
     max-width: 500px;
     margin: 0 auto;
     color: black;
-    opacity: 50%
 }
 #templatemo_home h1 {
     margin-top: 20vh;
@@ -215,6 +214,11 @@ em {
     padding: 5px;
     color: #000;
 }
+
+.templatemo_home_inner_wapper a {
+    opacity: 50%;
+}
+
 #templatemo_home p a:hover {
     background-color: rgba(255,255,255,.75);
     border-bottom: 0px dotted #000;
