@@ -162,7 +162,6 @@ nav.main-menu a:link, nav.main-menu a:hover, nav.main-menu a:focus, nav.main-men
     outline: none;
 }
 /***** Home *****/
-/***** Home *****/
 #templatemo_home {
     position: relative; /* Ensure the pseudo-element stays within the bounds of the section */
     background: none; /* Remove the background from the main element */
